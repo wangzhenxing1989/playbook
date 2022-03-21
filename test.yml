@@ -5,4 +5,4 @@
   - name: Check The Server Date
     debug: msg='Hello World!'
   - name: Download File
-    get_url: url=http://105.zenking.cc/Download/test.log dest=/opt/tt.log mode=0644
+    get_url: url=http://105.zenking.cc/Download/test.log dest=/tmp/tt.log
