@@ -5,4 +5,4 @@
   - name: Check The Server Date
     debug: msg='Hello World!'
   - name: Download File
-    get_url: url=http://105.zenking.cc/Download/ms.educloudplatform-3.0.0.jar dest=/var/lib/awx/ms.educloudplatform-3.0.0.jar
+    get_url: url=http://105.zenking.cc/Download/ms.educloudplatform-3.0.0.jar dest=/home/awx/ms.educloudplatform-3.0.0.jar
