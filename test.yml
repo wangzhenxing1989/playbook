@@ -6,5 +6,5 @@
     debug: msg='Hello World!'
   - name: Cpoy File
     template:
-      src: /root/test.log
-      dest: /home/
+      src: /var/lib/awx/test.log
+      dest: /var/lib/awx/file
