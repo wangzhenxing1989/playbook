@@ -6,5 +6,5 @@
     debug: msg='Hello World!'
   - name: Cpoy File
     template:
-      src: /root/tower_test.log
+      src: /root/test.log
       dest: /home/
