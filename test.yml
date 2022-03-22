@@ -6,3 +6,5 @@
     debug: msg='Hello World!'
   - name: Show Ip
     shell: ifconfig ens32
+  - name: Touch text
+    shell: touch /root/1337.log
