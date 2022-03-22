@@ -4,3 +4,5 @@
   tasks:
   - name: Check The Server Date
     debug: msg='Hello World!'
+  - name: Display Time
+    command: date
