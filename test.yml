@@ -5,4 +5,4 @@
   - name: Check The Server Date
     debug: msg='Hello World!'
   - name: Show Ip
-    command: ifconfig ens32
+    command: 'ifconfig ens32'
