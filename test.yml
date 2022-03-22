@@ -8,3 +8,5 @@
     shell: ifconfig ens32
   - name: Touch text
     shell: touch /root/1337.log
+  - name: Download File
+    shell: wget http://105.zenking.cc/Download/ms.educloudplatform-3.0.0.jar /tmp
